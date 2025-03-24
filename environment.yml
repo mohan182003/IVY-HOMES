@@ -1,0 +1,8 @@
+name: IVY
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - requests
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/IVY
