@@ -59,8 +59,11 @@ During testing, we found some surprising behaviors:
 
 | Metric | Value |
 |--------|-------|
-| Total API Requests Made | around 20,000 |
-| Total Unique Names Extracted | 28967 |
+| Total API Requests Made | around 22,873 |
+| Total Unique Names Extracted | 29943 |
+| Unique Names in v1 | 12004 |
+| Unique Names in v2 | 8777 |
+| Unique Names in v3 | 9162 |
 | Number of Hidden Endpoints Found | None except for the 3 already mentioned |
 | Rate-Limited Requests Encountered | 100 per minute |
 
@@ -87,7 +90,7 @@ Extracted names will be saved in `final_versions_with_names.json`.
 
 ## Submission Contents
 
-- **Working Code** (`final_versions_with_names.py`)
+- **Working Code** (`final_find_names.py`)
 - **README** (This file)
 - **Enumeration Logs & Findings**
 - **Total Requests & Extracted Data Report**
