@@ -1,0 +1,41 @@
+﻿Problem Statement
+
+You've been given access to an autocomplete API running at http://35.200.185.69:8000. Your task is to extract ALL possible names available through this API's autocomplete system. However, there's a catch - there's no official documentation, and you'll need to discover how the API works through exploration and testing.
+Requirements
+
+1. Write a program that can efficiently extract all possible names from the autocomplete system
+2. Your solution must work within the API's constraints (which you'll need to discover)
+3. Document any interesting findings, endpoints, or features you discover during your exploration
+4. Include your approach to solving rate limiting and other challenges you encounter
+
+What We're Looking For
+* Your systematic approach to discovering API behavior
+* How you handle various constraints and limitations
+* Code quality and efficiency of your solution
+* Documentation of your problem-solving process
+
+Getting Started
+
+1. Create a code repository and set up your development environment.
+2. Begin by exploring the known endpoint: /v1/autocomplete?query=<string>.
+3. Write scripts to test and document the behavior of the API.
+4. Investigate and handle any rate limiting or other constraints imposed by the API.
+5. Document your findings, including any additional endpoints or features you discover.
+6. Implement a solution to extract all possible names from the autocomplete system.
+7. Ensure your code is efficient and well-documented.
+8. Commit your code and findings to the repository regularly.
+Submission
+Provide:
+
+
+1. Your working code solution
+2. A README explaining your approach and findings
+3. Any tools or scripts you created for testing/exploration
+4. Total number of requests you needed to make to the API
+5. Total number of records you were able to obtain from the API
+
+
+Please submit the solution using this form.
+
+
+Good luck! Remember - the obvious solution may not be the best one.

@@ -59,8 +59,8 @@ During testing, we found some surprising behaviors:
 
 | Metric | Value |
 |--------|-------|
-| Total API Requests Made | around 10,000 |
-| Total Unique Names Extracted | [INSERT TOTAL COUNT] |
+| Total API Requests Made | around 20,000 |
+| Total Unique Names Extracted | 28967 |
 | Number of Hidden Endpoints Found | None except for the 3 already mentioned |
 | Rate-Limited Requests Encountered | 100 per minute |
 

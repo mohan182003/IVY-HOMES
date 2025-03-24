@@ -1,12 +1,53 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.sqlite3
-*.log
-*.json
-*.txt
-.DS_Store
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Conda environment
+/envs/
+.conda/
+/env/
+
+# IDE specific files
 .vscode/
 .idea/
 *.iml
 
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite3
+
+# Logs and outputs
+*.log
+
+# JSON files 
+*.json
+
+# *.txt
+
+# PDF files 
+# *.pdf
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Local environment variables
+.env
+.env.local
+
+# Personal notes/scratch files
+notes.md
+scratch/
